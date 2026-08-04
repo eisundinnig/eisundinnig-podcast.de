@@ -1,0 +1,22 @@
+name: RSS Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download RSS
+        run: |
+          curl -L https://i3s6iw.podcaster.de/eisinnig.rss -o feed.xml
+
+      - name: Show RSS
+        run: |
+          head -20 feed.xml
