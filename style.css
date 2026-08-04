@@ -1,0 +1,110 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin:0;
+    background:white;
+    color:black;
+    font-family:'Outfit', sans-serif;
+}
+.logo{
+    width:260px;
+    margin-bottom:30px;
+}
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:60px;
+}
+    
+}
+
+.hero-text{
+    text-align:left;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:60px 30px;
+    text-align:center;
+}
+
+h1{
+    font-size:56px;
+    font-weight:800;
+    margin:0 0 15px 0;
+}
+
+.subtitle{
+    color:#555555;
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.player{
+    background:#F7F7F7
+    border:1px solid #E5E5E5;
+    border-radius:16px;
+    padding:40px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.08);
+    transition:0.25s;
+}
+
+.player:hover{
+    transform:translateY(-3px);
+}
+footer{
+
+    margin-top:60px;
+
+    color:#8fa1b0;
+
+}
+
+footer a{
+
+    color:#8fa1b0;
+
+    text-decoration:none;
+
+}
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 24px;
+    background:#F4C21D;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:30px;
+    transition:0.2s;
+    box-shadow:0 5px 15px rgba(244,194,29,0.35);
+}
+.button:hover{
+    background:#FFD84D;
+}
+.episode-divider{
+    border:none;
+    border-top:1px solid #DDDDDD;
+    margin:20px 0 25px 0;
+}
+.podcast-links{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.podcast-links a{
+    color:#444;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.2s;
+}
+
+.podcast-links a:hover{
+    color:#F4C21D;
+}
